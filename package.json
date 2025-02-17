@@ -1,7 +1,7 @@
 {
   "name": "blackjack-helper",
   "version": "0.1.0",
-  "homepage": "https://Zelaschi.github.io/BlackjackHelper",
+  "homepage": "https://Zelaschi.github.io/BlackJackHelper",
   "private": true,
   "dependencies": {
     "@types/dom-speech-recognition": "^0.0.4",
