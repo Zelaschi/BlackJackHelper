@@ -1,50 +1,47 @@
-<<<<<<< HEAD
 # BlackJackHelper
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+BlackjackHelper is an aplication that advises users on how to play their blackjack hands, including speech recognition. It analyzes both the player's and dealer's hands and provides advise based on preloaded strategy charts from a CSV to suggest the best course of action. 
 
-## Available Scripts
+## Characteristics
+<ul>
+    <li>Voice recognition to input player's and dealer's hands</li>
+    <li>CSV-based strategy chart loading</li>
+    <li>Voice synthesis for feedback</li>
+</ul>
 
-In the project directory, you can run:
+## Technologies
 
-### `npm start`
+<ul>
+    <li>React.js</li>
+    <li>Tailwind CSS</li>
+    <li>Papaparse for CSV file parsing</li>
+    <li>Web Speech API for speech recognition</li>
+    <li>Web Speech API for voice synthesis</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalation
+1. Clone the repository
+    ```sh
+    git clone https://github.com/Zelaschi/BlackJackHelper.git
+    cd blackjack-helper
+    ```
+2. Install dependencies
+    ```sh
+    npm install
+    ```
+3. Start application</li>
+    ```sh
+    npm start
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Known Issues
+<ul>
+    <li>After saying "King," "Jack," or "Queen," numbers like "two" are sometimes recognized as "to," and "four" as "for".</li>
+    <li>f "King," "Jack," or "Queen" is spoken first, the next number may be recognized as a two-digit number, causing incorrect detection of the suggestion.</li>
+</ul>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
->>>>>>> a1de1cc (First commit)
+## Future Improvements
+<ul>
+    <li>Track the card count and update the probability array according to the count</li>
+</ul>
