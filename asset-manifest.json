@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BlackJackHelper/static/css/main.df8353e3.css",
+    "main.js": "/BlackJackHelper/static/js/main.75748884.js",
+    "static/js/488.06f496b7.chunk.js": "/BlackJackHelper/static/js/488.06f496b7.chunk.js",
+    "index.html": "/BlackJackHelper/index.html",
+    "main.df8353e3.css.map": "/BlackJackHelper/static/css/main.df8353e3.css.map",
+    "main.75748884.js.map": "/BlackJackHelper/static/js/main.75748884.js.map",
+    "488.06f496b7.chunk.js.map": "/BlackJackHelper/static/js/488.06f496b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df8353e3.css",
+    "static/js/main.75748884.js"
+  ]
+}
