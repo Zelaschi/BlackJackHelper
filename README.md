@@ -41,7 +41,8 @@ BlackjackHelper is an aplication that advises users on how to play their blackja
 ## Known Issues
 <ul>
     <li>After saying "King," "Jack," or "Queen," numbers like "two" are sometimes recognized as "to," and "four" as "for".</li>
-    <li>f "King," "Jack," or "Queen" is spoken first, the next number may be recognized as a two-digit number, causing incorrect detection of the suggestion.</li>
+    <li>If "King," "Jack," or "Queen" is spoken first, the next number may be recognized as a two-digit number, causing incorrect detection of the suggestion.</li>
+    <li>No firefox support</li>
 </ul>
 
 ## Future Improvements
