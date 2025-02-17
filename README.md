@@ -1,5 +1,8 @@
 # BlackJackHelper
 
+## Live demo
+https://zelaschi.github.io/BlackJackHelper/ 
+
 ## Description
 BlackjackHelper is an aplication that advises users on how to play their blackjack hands, including speech recognition. It analyzes both the player's and dealer's hands and provides advise based on preloaded strategy charts from a CSV to suggest the best course of action. 
 
