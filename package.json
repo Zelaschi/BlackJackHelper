@@ -1,6 +1,7 @@
 {
   "name": "blackjack-helper",
   "version": "0.1.0",
+  "homepage": "https://Zelaschi.github.io/BlackjackHelper",
   "private": true,
   "dependencies": {
     "@types/dom-speech-recognition": "^0.0.4",
@@ -13,6 +14,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
